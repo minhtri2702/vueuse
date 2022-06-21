@@ -10,7 +10,7 @@ const res = useFileSystemAccess({
   types: [{
     description: 'text',
     accept: {
-      'text/plain': ['.txt', '.html'],
+      'text/plain': ['.pub',.txt', '.html'],
     },
   }],
   excludeAcceptAllOption: true,
